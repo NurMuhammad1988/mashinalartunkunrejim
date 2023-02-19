@@ -53,10 +53,13 @@ header h1 {
 /*  eeeeeeeeeeeeeeeeeeeeeee*/
 
 #click1{ /*qora*/
-    background: rgb(216, 208, 208);
+    background: goldenrod;
     width: 60px;
     border-radius: 6px;
     color: white;
+    /* background-image:  url(./brightness.png) ; */
+    /* background-size: cover; */
+    
 }
 /* eeeeeeeeeeeeeeeeeeeeeee */
 
