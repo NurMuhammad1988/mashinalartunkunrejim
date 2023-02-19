@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: yellowgreen;
+    width: auto;
+    height: 100vh;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background: slategray;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+header ul a {
+    color: white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header ul li :hover {
+    color: rgb(9, 1, 22);
+    background-color: rgb(130, 121, 118);
+    border-radius: 6px;
+    font-size: 29px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(32, 32, 32);
+    font-size: 70px;
+}
+
+/*  eeeeeeeeeeeeeeeeeeeeeee*/
+
+#click1{ /*oq*/
+    background: rgb(77, 74, 74);
+    width: 60px;
+    border-radius: 6px;
+    color: white;
+}
+/* eeeeeeeeeeeeeeeeeeeeeee */
+
+header p {
+    text-align: center;
+    color: rgb(112, 95, 95);
+    font-family: monospace;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+header .menu {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .menu a :hover {
+    background-color: rgb(130, 121, 118);
+    border-radius: 39px;
+    border-color: red;
+}
+
+header .menu img {
+    border-radius: 20px;
+    border: 3px solid rgba(0, 128, 0, 0.752);
+    margin-bottom: 30px;
+}
+
+header .info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .infoo11 {
+    width: 310px;
+    height: auto;
+}
+
+header .infoo11 p {
+    color: azure;
+    text-align: justify;
+}
+
+header .info .infoo11 span {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(10, 40, 71, 0.779);
+}
+
+header .info .infoo11 a :hover {
+    color: rgb(10, 2, 23);
+    background-color: rgba(0, 128, 0, 0.474);
+    border-radius: 10px;
+    font-size: 31px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header form {
+
+    text-align: center;
+    font-size: 30px;
+    flex-wrap: wrap;
+    display: block;
+    background: rgba(44, 41, 41, 0.473);
+    width: 700px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:400px){
+
+    header form{
+
+        background: red;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+header form h2 {
+
+    font-size: 38px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header label {
+    font-weight: 900;
+    color: blue;
+    flex-wrap: wrap;
+}
+
+header input {
+    align-items: flex-start;
+    background: blanchedalmond;
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+
+:focus {
+
+    background: grey;
+    border-radius: 10px;
+}
+
+input:focus {
+    background: rgb(174, 219, 82);
+}
+
+header form .label1 {
+    background: whitesmoke;
+    width: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: 2px solid black;
+}       
+
+
+header form .label2 {
+    background: whitesmoke;
+    width: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+header form .label3 {
+    background: whitesmoke;
+    width: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+header form .label4 {
+    background: whitesmoke;
+    width: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+header form .label5 {
+    background: whitesmoke;
+    width: 550px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+header form .input1 {
+    background: whitesmoke;
+    width: 550px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+header form .select1 {
+    background: whitesmoke;
+    width: 550px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+header form :hover {
+    background-color: lightblue;
+}
+

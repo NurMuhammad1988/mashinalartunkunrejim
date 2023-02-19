@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+    width: auto;
+    height: 100vh;
+    height: auto;
+    background: slategrey;
+    padding-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+
+header ul {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 128, 0, 0.737);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+header ul a {
+    color: white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+header ul li :hover {
+    background-color: rgb(130, 121, 118);
+    border-radius: 7px;
+    border: 2px solid greenyellow;
+}
+
+
+header .menu11 {
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 36px;
+    margin: auto;
+}
+
+
+header .menu11 h2 {
+    color: white;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.609);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header .menu11 :hover {
+    background-color: rgba(130, 121, 118, 0.519);
+    border-radius: 7px;
+    border-color: red;
+    border: 2px solid whitesmoke;
+}
+
+
+header h1 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+
+header .menu23 {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header .merc-img {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+header .merc-img img {
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+header .merc-img :hover{
+    border-color:  red;
+}

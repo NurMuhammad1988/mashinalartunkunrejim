@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+    width: auto;
+    height: auto;
+    background: skyblue;
+}
+
+
+header .hhhw{
+    color: rgb(7, 7, 73)   ;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 49px;
+}
+
+
+header .problem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+header ul {
+    width: 333px;
+    height: 240px;
+    background: rgba(1, 6, 7, 0.219);
+    border-radius: 30px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+header ul h1 {
+    color: whitesmoke;
+    text-align: center;
+    background: rgba(15, 21, 7, 0.897);
+    border-radius: 14px;
+    width: 300px;
+    height: 40px;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+
+
+header .bosh {
+    color: brown;
+    background-color: rgba(128, 255, 0, 0.353);
+}
+
+
+header ul a h2 {
+    margin: 20px;
+    background: rgba(15, 21, 7, 0.897);
+    border-radius: 14px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    padding-top: 5px;
+}
+
+
+header ul li a :hover {
+    background-color: rgb(130, 121, 118);
+    background-color: rgba(135, 207, 235, 0.483);
+    border-radius: 39px;
+    border-color: red;
+    border: 1px solid greenyellow;
+}
+
+
+hr {
+    height: 4px;
+    background-color: mediumslateblue;
+}
+
+
+menu {
+
+    width: auto;
+    height: auto;
+    padding-bottom: 150px;
+    background: cadetblue;
+    padding-top: 100px;
+}
+
+
+menu .audi-img {
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+menu .audi-img img {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+

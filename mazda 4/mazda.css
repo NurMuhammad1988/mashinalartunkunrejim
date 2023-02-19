@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+    flex-wrap: wrap;
+}
+
+
+header .asosiy {
+    width: auto;
+    height: 300px;
+    background: rgba(0, 139, 139, 0.37);
+    flex-wrap: wrap;
+}
+
+
+@media(max-width:400px){
+    header .asosiy{
+        background: rgba(252, 123, 91, 0.62);
+    }
+}
+
+/* binafshaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+header .boshsahifa {
+    width: 200px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.515);
+    position: absolute;
+    margin-top: 40px;
+    left: 40px;
+    text-align: center;
+    border-radius: 7px;
+
+    flex-wrap: wrap;
+}
+
+
+header .boshsahifa h1 {
+    color: rgba(0, 0, 0, 0.819);
+}
+
+
+header .boshsahifa :hover {
+    background: rgba(0, 0, 0, 0.076);
+    border-radius: 8px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 255, 0.64);
+}
+
+/* binafshaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+
+/* web1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+header .web1 {
+    width: 200px;
+    height: 47px;
+    background-color: rgba(172, 255, 47, 0.594);
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+header .web1 h2 {
+    color: brown;
+    padding-top: 7px;
+}
+
+
+header .web1 :hover {
+    background: rgba(0, 0, 0, 0.076);
+    border-radius: 7px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+/* web1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+
+
+/* web2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+header .webb2 {
+    width: 200px;
+    height: 49px;
+    background-color: rgba(0, 128, 0, 0.523);
+    position: absolute;
+    left: 760px;
+    top: 160px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+header .webb2 h2 {
+    color: chartreuse;
+    padding-top: 7px;
+}
+
+
+header .webb2 :hover {
+    background: rgba(0, 0, 0, 0.076);
+    border-radius: 7px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+
+/* web2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+/* webbb33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 */
+
+header .webbb3 {
+    width: 300px;
+    height: 54px;
+    background-color: rgba(0, 0, 0, 0.529);
+    position: absolute;
+    left: 1100px;
+    top: 220px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+header .webbb3 h2 {
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 12px;
+}
+
+
+header .webbb3 :hover {
+    background: rgba(0, 0, 0, 0.076);
+    border-radius: 7px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+/* webbb3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 */
+
+/* webbbb444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+
+header .webbbb4 {
+
+    width: 400px;
+    height: 54px;
+    background-color: rgba(245, 222, 179, 0.753);
+    position: absolute;
+    left: 1220px;
+    top: 40px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+header .webbbb4 h2 {
+    color: rgba(0, 0, 0, 0.904);
+    padding-top: 12px;
+}
+
+/* webbbb4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+
+
+/* menuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
+
+menu{
+
+    width: auto;
+    height: auto;
+    background: rgba(83, 139, 0, 0.396);
+}
+
+menu .mazda-img{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 300px;
+    flex-wrap: wrap;
+}
+
+menu .mazda-img img{
+
+    padding-bottom: 30px;
+}
