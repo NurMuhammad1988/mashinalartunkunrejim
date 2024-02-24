@@ -25,13 +25,13 @@ header ul {
     display: flex;
     justify-content: space-around;
     padding: 30px 0;
-    background: slategray;
+    background: rgb(15, 16, 18);
     flex-wrap: wrap;
     padding-right: 30px;
 }
 
 header ul a {
-    color: white;
+    color: rgb(58, 51, 51);
     font-size: 28px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -46,7 +46,7 @@ header ul li :hover {
 header h1 {
     text-align: center;
     margin-top: 100px;
-    color: rgb(232, 222, 242);
+    color: rgb(130, 121, 118);
     font-size: 70px;
 }
 
@@ -65,11 +65,12 @@ header h1 {
 
 header p {
     text-align: center;
-    color: red;
     font-family: monospace;
     font-size: 30px;
     margin-bottom: 50px;
     padding-top: 30px;
+    color: rgb(130, 121, 118);
+
 }
 
 header .menu {
@@ -105,7 +106,11 @@ header .infoo11 {
 header .infoo11 p {
     color: azure;
     text-align: justify;
+    
+
 }
+
+
 
 header .info .infoo11 span {
     font-size: 30px;
